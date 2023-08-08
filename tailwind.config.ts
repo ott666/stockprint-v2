@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        'secondaryBlue':'#617ABC'
+      },
       screens:{
         '3xl':'1900px'
       },
