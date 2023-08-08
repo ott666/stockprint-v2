@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function HeroCard(){
     return(
         <div className="
-        w-full md:max-w-[800px] lg:max-w-[400px] 3xl:max-w-[430px]  px-3 sm:px-[15px] lg:p-0  flex flex-col  first-letter gap-y-[20px]"> 
-            <h1 className="text-5xl text-center lg:text-start sm:text-6xl lg:text-6xl 3xl:text-7xl font-bold">Foco no que importa</h1>
+        w-full md:max-w-[800px] lg:max-w-[430px]  px-3 sm:px-[15px] lg:p-0  flex flex-col  first-letter gap-y-[20px]"> 
+            <h1 className="text-5xl text-center lg:text-start sm:text-6xl lg:text-7xl 3xl:text-7xl font-bold">Foco no que importa</h1>
             <p className={`
                     text-xl sm:text-3xl lg:text-2xl
                     text-center lg:text-start

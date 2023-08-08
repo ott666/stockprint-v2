@@ -1,7 +1,8 @@
 'use client'
-import HeroSection from '@/components/Hero/HeroSection'
-import MarcasSection from '@/components/MarcasSection/MarcasSection'
+import HeroSection from '@/components/Sections/Hero/HeroSection'
+import MarcasSection from '@/components/Sections/MarcasSection/MarcasSection'
 import Image from 'next/image'
+import SobreSection from '@/components/Sections/SobreSection/SobreSection'
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <HeroSection/>
       <MarcasSection/>
+      <SobreSection/>
     </main>
   )
 }
