@@ -1,10 +1,10 @@
 import React from "react"
-
+import Container from "@/components/Container/Container"
 import MarcaCard from "./MarcaCard"
 export default function MarcasSection(){
     return(
-        <section className="bg-blue-600 h-[1000px] md:h-screen pt-[50px]">
-           
+        <section className="bg-blue-600 h-[1000px] md:h-fit pt-[50px] md:pb-[50px]">
+           <Container>
                 <h1 className={`
                         text-white text-center font-bold
                         text-5xl lg:text-7xl 
@@ -30,7 +30,7 @@ export default function MarcasSection(){
                     </div>
                     
                 </div>
-            
+                </Container>           
         </section>
     )
 }

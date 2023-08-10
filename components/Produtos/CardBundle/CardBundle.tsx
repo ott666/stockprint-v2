@@ -36,6 +36,7 @@ export default function Cardbundle(props:CardbundleProps){
                 <h3 className={`
                 text-4xl
                 font-bold
+                text-slate-300
                 -tracking-wider
                 `}>{props.title}</h3>
                  <div className={`
@@ -51,11 +52,13 @@ export default function Cardbundle(props:CardbundleProps){
                 text-3xl
                 font-semibold
                 -tracking-widest
+                text-slate-300
                 `}>{props.subtitle}</h4>
                 <h4 className={`
                 text-3xl
                 font-semibold
                 -tracking-widest
+                text-slate-300
                 `}>{props.subtitle2}</h4>
                 </div>
             </div>

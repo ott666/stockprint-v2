@@ -44,6 +44,8 @@ export default function GenerosSection(){
                 text-sm xl:text-7xl
                 invisible xl:visible
                 bg-green-400
+                text-zinc-100
+
                 py-[40px]
                 w-[80%]
                 rounded-3xl
@@ -61,7 +63,7 @@ export default function GenerosSection(){
             <div className={`
             flex flex-col 
             md:pt-[40px]
-
+            text-slate-200
             h-fit
             `}>
                 <p className={`
@@ -111,10 +113,12 @@ export default function GenerosSection(){
                 mt-2
                 w-full lg:max-w-[95%]
                 lg:self-center
+                text-blue-500
                 rounded-3xl
-                bg-black
+                bg-white
                 `}>
-                    <Link href={'/'}>R$5.300,00</Link>
+                    <Link 
+                    href={'/'}>R$5.300,00</Link>
                 </button>
                 
             </div>
@@ -131,10 +135,10 @@ export default function GenerosSection(){
                 gap-4 xl:gap-x-1 xl:gap-y-3
                 xl:translate-y-[-40px]
                 pt-5`}>
-                    <Cardbundle title="Cartucho de tinta YMC" subtitle="Até 1300 impressões" subtitle2="Para Fargo INK1000" imgPath="/cartucho/cartucho8.png" bgColor="yellow"/>
-                    <Cardbundle title="Software Asure ID 7" subtitle="Crie layouts" subtitle2="Acesso vitalício" imgPath="/software/asureid7.png" bgColor="red"/>
-                    <Cardbundle title="Cartão PVC branco" subtitle="Pacote Fargo Ultracard" subtitle2="100 Cartões selados" imgPath="/cartaopvc/cartaopvc.png" bgColor="orange"/>
-                    <Cardbundle title="Fargo INK1000" subtitle="Imprime sem bordas" subtitle2="Não utiliza cabeça" imgPath="/ink1000/ink10009.png" bgColor="blue"/>
+                    <Cardbundle title="Cartucho de tinta YMC" subtitle="Até 1300 impressões" subtitle2="Para Fargo INK1000" imgPath="/cartucho/cartucho8.png" bgColor="#0C1842C2"/>
+                    <Cardbundle title="Software Asure ID 7" subtitle="Crie layouts" subtitle2="Acesso vitalício" imgPath="/software/asureid7.png" bgColor="#0C1842C2"/>
+                    <Cardbundle title="Cartão PVC branco" subtitle="Pacote Fargo Ultracard" subtitle2="100 Cartões selados" imgPath="/cartaopvc/cartaopvc.png" bgColor="#0C1842C2"/>
+                    <Cardbundle title="Fargo INK1000" subtitle="Imprime sem bordas" subtitle2="Não utiliza cabeça" imgPath="/ink1000/ink10009.png" bgColor="#0C1842C2"/>
 
                 </div>
 
