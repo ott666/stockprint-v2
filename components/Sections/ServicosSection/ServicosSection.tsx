@@ -31,7 +31,7 @@ const ServicosSection = () => {
 
             
             
-            <CardServico title='Garantia Total em Nossos Produtos!'
+            <CardServico title='Garantia Total!'
             icon='/icons/trofeu-icon.svg' 
              text='Se você busca soluções precisas e inovadoras no ramo de identificação, está no lugar certo! Nossa consultoria é especializada em ajudar empresas e organizações a aprimorar seus processos de identificação e segurança.'/>
             

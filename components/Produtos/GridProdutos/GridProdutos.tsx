@@ -1,6 +1,6 @@
 // import ListaProdutos
 import produtosData from "@/data/products.json";
-import { CardProduct } from "../CardProduct/CardProduct";
+import { CardProduct } from "@/components/Produtos/CardProduct/CardProduct";
 import Link from "next/link";
 
 type Props = {

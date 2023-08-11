@@ -3,7 +3,7 @@ import GenerosProdutos from "@/components/Produtos/GenerosProdutos/GenerosProdut
 import ListaProdutos from "@/components/Produtos/GridProdutos/GridProdutos";
 import  Container  from "@/components/Container/Container";
 
-export default function ProdutosSection(){
+export default function ProdutosSection(props:any){
     const [selectedGenre, setSelectedGenre] = useState("");
     return(
       <section className="h-fit bg-blue-600">
