@@ -7,7 +7,9 @@ import ProdutosSection from '@/components/Sections/ProdutosSection/ProdutosSecti
 import SobreSection2 from '@/components/Sections/SobreSection2/SobreSection2'
 import BundleInk from '@/components/Sections/BundleInk/BundleInk'
 import ServicosSection from '@/components/Sections/ServicosSection/ServicosSection'
+
 export default function Home() {
+  
   return (
     <main>
       <HeroSection/>

@@ -10,7 +10,7 @@ export default function MarcasSection(){
                         text-5xl lg:text-7xl 
                     
                     `}>
-                    Lorem, ipsum dolor.
+                    Nossos fornecedores
                 </h1>
                 <div className="flex justify-between pt-[50px] px-[30px]">
                     <div className={`
