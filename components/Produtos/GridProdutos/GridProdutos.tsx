@@ -14,7 +14,7 @@ const ListaProdutos = ({ selectedGenre }: Props) => {
     ? produtosData.filter((product) => product.genre.includes(selectedGenre))
     : produtosData;
   return (
-    <div className="p-2 flex flex-wrap gap-2 justify-between">
+    <div className="p-2 flex flex-wrap gap-y-2 xl:gap-y-6 gap-x-10 justify-center">
       {/* map through all the filtered ListaProdutos */}
       {filteredMoviesByGenre.map((product) => {
        

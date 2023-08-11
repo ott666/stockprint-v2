@@ -13,12 +13,14 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
   const genres = Array.from(new Set(splitGenres));
 
   return (
-    
       
-      <ul className='font-sans font-bold  flex w-full justify-between p-[15px] bg-primaryBlue mt-[30px] rounded-xl'>
+      <ul className='font-sans font-bold p-[15px] bg-slate-100 mt-[30px] rounded-xl
+      flex flex-col sm:flex-row w-full
+      justify-evenly 
+      '>
         {/* "All" for no filter */}
         <li
-          className={!selectedGenre ? "bg-indigo-50 text-secondaryBlue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
+          className={!selectedGenre ? "bg-blue-600 text-white px-3 py-1 rounded-xl" : "text-blue-600 p-2 hover:bg-blue-600 hover:text-white hover:px-3 hover:py-1 hover:rounded-xl"}
           onClick={() => onSelect("")}
         >
           <a className="cursor-pointer capitalize text-3xl">
@@ -32,7 +34,7 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
             <li
               key={i}
               // use a different class if the genre is selected.
-              className={isSelected ? "bg-indigo-50 text-secondaryBlue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
+              className={isSelected ? "bg-blue-600 text-white px-3 py-1 rounded-xl" : "text-blue-600 p-2 hover:bg-blue-600 hover:text-white hover:px-3 hover:py-1 hover:rounded-xl"}
               // attach the onSelect handler
               onClick={() => onSelect(genre)}
             >
@@ -40,10 +42,10 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
                 {genre}
               </a>
             </li>
+            
           );
         })}
       </ul>
-  
    
   );
 };

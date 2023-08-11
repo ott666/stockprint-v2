@@ -12,7 +12,7 @@ interface CardbundleProps{
 export default function Cardbundle(props:CardbundleProps){
     return(
         <div className={`
-        w-[325px] mm:w-[375px] xl:w-[300px]
+        w-[325px] mm:w-[375px] xl:w-[300px] xl:w-
         h-[294px] mm:h-[347.5px]  xl:h-[266px]
         relative
         group

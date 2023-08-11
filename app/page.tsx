@@ -6,7 +6,7 @@ import SobreSection from '@/components/Sections/SobreSection/SobreSection'
 import ProdutosSection from '@/components/Sections/ProdutosSection/ProdutosSection'
 import SobreSection2 from '@/components/Sections/SobreSection2/SobreSection2'
 import BundleInk from '@/components/Sections/BundleInk/BundleInk'
-
+import ServicosSection from '@/components/Sections/ServicosSection/ServicosSection'
 export default function Home() {
   return (
     <main>
@@ -14,6 +14,9 @@ export default function Home() {
       <MarcasSection/>
       <SobreSection2/>
       <BundleInk/>
+      <ProdutosSection/>
+      <ServicosSection/>
+      
     </main>
   )
 }
