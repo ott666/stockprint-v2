@@ -7,12 +7,12 @@ export default function MarcasSection(){
            <Container>
                 <h1 className={`
                         text-white text-center font-bold
-                        text-5xl lg:text-7xl 
+                        text-4xl mm:text-5xl lg:text-7xl 
                     
                     `}>
                     Nossos fornecedores
                 </h1>
-                <div className="flex justify-between pt-[50px] px-[30px]">
+                <div className="flex justify-between pt-[50px]  md:px-7">
                     <div className={`
                         bg-transparent
                         w-full

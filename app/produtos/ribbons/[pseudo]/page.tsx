@@ -12,7 +12,9 @@ export default function Page({params}:any){
     <TransitionEffect2 />
     <Breadcrumb produto={produto}/>
     <Container>
-    <div className="h-screen"></div>
+    <div className="h-screen">
+      
+    </div>
     </Container>
     </>
   

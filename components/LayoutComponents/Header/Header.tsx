@@ -16,7 +16,7 @@ export function Header(){
 
 ]
     return(
-        <header className='fixed z-10 flex items-center w-screen h-28 bg-blue-700 font-sans'>
+        <header className='fixed top-0 z-10 flex items-center w-screen h-28 bg-blue-700 font-sans'>
             <Container>
                 <div className='flex items-center gap-14 h-full justify-between'>
                     <Link href={'/'}>

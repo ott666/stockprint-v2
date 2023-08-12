@@ -4,10 +4,10 @@ import HeroCard from "./HeroCard";
 
 export default function HeroSection(){
     return(
-        <section className="min-w-screen min-h-screen relative md:mt-[130px] lg:mt-0">
+        <section className="min-w-screen min-h-screen relative md:mt-[112px] lg:mt-0">
         <img src="logos/logo.svg" className={`
         absolute
-        top-[20%] mm:top-[15%] sm:top-[10%] md:top-5 lg:top-[50%] lg:translate-y-[-50%] 
+        top-[20%] mm:top-[18%] sm:top-[15%] md:top-[15px] lg:top-[50%] lg:translate-y-[-50%] 
         px-4 lg:right-[0] xl:translate-x-[0%] lg:w-[55%] 2xl:max-w-[60%]
         xl:mr-[50px] 2xl:mr-[35px] 3xl:mr-[50px]
         z-[5]

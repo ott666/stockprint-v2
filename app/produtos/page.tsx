@@ -10,12 +10,14 @@ import TransitionEffect from "@/components/LayoutComponents/TransitionEffect/Tra
 export default function Page(){
     const [selectedGenre, setSelectedGenre] = useState("");
     return (
-    <div className="w-screen flex flex-col">
+      <section className="bg-blue-600">
+
         <TransitionEffect/>
         <Breadcrumb2 props='Produtos'/>
+
         <Container>
-        <div className="flex flex-col w-full justify-center items-center mt-[50px]">
-          <div className="w-full flex justify-center">
+        <div className="flex flex-col w-full justify-center items-center pb-2 lg:pb-8">
+          <div className="w-full flex justify-center pb-5">
               <GenerosProdutos
                 selectedGenre={selectedGenre}
                 onSelect={setSelectedGenre}
@@ -28,7 +30,7 @@ export default function Page(){
           
         </Container>
 
-    </div>
-        
+    </section>
+
     )
 }
