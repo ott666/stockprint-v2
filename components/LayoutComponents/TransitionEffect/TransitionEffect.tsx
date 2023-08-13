@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 
 
-const TransitionEffect2 = () => {
+const TransitionEffect = () => {
   return (
     <>
     <motion.div className='fixed top-0 bottom-0 right-full w-screen h-screen z-40 bg-yellow-500'
@@ -31,4 +31,4 @@ const TransitionEffect2 = () => {
   )
 }
 
-export default TransitionEffect2
+export default TransitionEffect

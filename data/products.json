@@ -1,5 +1,11 @@
 [
-{"id":1,"title":"HID Fargo INK1000","genre":"impressora", "pseudo":"ink1000", "subt":"Impressora Inkjet",
+{"id":1,"title":"HID Fargo INK1000","genre":"impressora", "pseudo":"ink1000", "subt":"Imprime sem bordas",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Não utiliza cabeça",
+"impComp":"null",
+"ribbonComp":"cartucho",
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -13,6 +19,12 @@
         ]
 },
 {"id":2,"title":"HID Fargo DTC1500","genre":"impressora", "pseudo":"dtc1500", "subt":"Impressora Direct-To-Card",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Impressão Dual-Sided",
+"impComp":"null",
+"ribbonComp":"",
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -26,6 +38,12 @@
         ]
 },
 {"id":3,"title":"HID Fargo DTC1250e Single","genre":"impressora", "pseudo":"dtc1250e_single", "subt":"Impressora Direct-To-Card",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Impressão Single-Sided",
+"impComp":"",
+"ribbonComp":["045102", "045000", "045010"],
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -55,6 +73,12 @@
         ]
 },
 {"id":4,"title":"HID Fargo DTC1250e Dual","genre":"impressora", "pseudo":"dtc1250e_dual", "subt":"Impressora Direct-To-Card",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Impressão Dual-Sided",
+"impComp":"null",
+"ribbonComp":["045102", "045000", "045010"],
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -67,7 +91,13 @@
             "Personaliza até 600 cartões monocromáticos por hora (K)"
         ]
 },
-{"id":5,"title":"HID Fargo HDP5000","genre":"impressora", "pseudo":"hdp5000", "subt":"Impressora Retransfer",
+{"id":5,"title":"HID Fargo HDP5000","genre":"impressora", "pseudo":"hdp5000", "subt":"Imprime sem bordas",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Impressão Dual-Sided ",
+"impComp":"null",
+"ribbonComp":["072214", "084053", "084051", "072213", "082601"],
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -80,7 +110,13 @@
             "Personaliza até 600 cartões monocromáticos por hora (K)"
         ]
 },
-{"id":6,"title":"HID Fargo HDP6600","genre":"impressora", "pseudo":"hdp6600", "subt":"Impressora Retransfer",
+{"id":6,"title":"HID Fargo HDP6600","genre":"impressora", "pseudo":"hdp6600", "subt":"Imprime sem bordas",
+"rendimento":"null",
+"tipo":"null",
+"marca":"HID FARGO",
+"subt2":"Impressão Dual-Sided ",
+"impComp":"null",
+"ribbonComp":["084911", "084900"],
 "descriptions":
         [
             "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
@@ -94,7 +130,13 @@
         ]
 },
 
-{"id":7,"title":"Ribbon #045102 - K","genre":"ribbons", "pseudo":"045102", "subt":"1000 faces mono K",
+{"id":7,"title":"Ribbon #045102","genre":"ribbons", "pseudo":"045102", "subt":"Até 1000 impressões",
+"rendimento":"1000 impressões",
+"tipo":"Black - K",
+"marca":"HID FARGO",
+"subt2":"Para Fargo DTC1250e",
+"impComp":["dtc1250e_dual", "dtc1250e_single"],
+"ribbonComp":"null",
 "descriptions":
         [
             "Impressoras compatíveis: DTC1000 e DTC1250e (single e dual)",
@@ -108,7 +150,13 @@
           ""
         ]
 },
-{"id":8,"title":"Ribbon #045432 - YMCKO ","genre":"ribbons", "pseudo":"045432", "subt":"250 faces coloridas",
+{"id":8,"title":"Ribbon #045432 - YMCKO ","genre":"ribbons", "pseudo":"045432", "subt":"Até 250 impressões",
+"rendimento":"250 impressões",
+"tipo":"Color - YMCKO",
+"marca":"HID FARGO",
+"subt2":"Para Fargo C-50",
+"impComp":["null"],
+"ribbonComp":"null",
 "descriptions":
         [
         "Impressoras compatíveis: Fargo C-50",
@@ -122,7 +170,13 @@
           ""
         ]
 },
-{"id":9,"title":"Ribbon #072214 - YMCK","genre":"ribbons", "pseudo":"072214", "subt":"500 faces coloridas",
+{"id":9,"title":"Ribbon #072214 - YMCK","genre":"ribbons", "pseudo":"072214", "subt":"Até 500 impressões",
+"rendimento":"500 impressões",
+"tipo":"Color - YMCK",
+"marca":"HID FARGO",
+"subt2":"Para HDP5000 (Guardian)",
+"impComp":["hdp5000"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: HDP5000 (MODELO GUARDIAN)",
@@ -138,7 +192,13 @@
           ""
         ]
 },
-{"id":10,"title":"Ribbon #045010 - YMCKOK","genre":"ribbons", "pseudo":"045010", "subt":"200 faces coloridas",
+{"id":10,"title":"Ribbon #045010 - YMCKOK","genre":"ribbons", "pseudo":"045010", "subt":"Até 200 impressões",
+"rendimento":"200 impressões",
+"tipo":"Color - YMCKOK",
+"marca":"HID FARGO",
+"subt2":"Para Fargo DTC1250e",
+"impComp":["dtc1250e_dual", "dtc1250e_single"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis:DTC1000 e DTC1250e (single e dual)",
@@ -153,7 +213,13 @@
           ""
         ]
 },
-{"id":11,"title":"Ribbon #045106 - W","genre":"ribbons", "pseudo":"045106", "subt":"1000 faces mono W",
+{"id":11,"title":"Ribbon #045106 - W","genre":"ribbons", "pseudo":"045106", "subt":"Até 1000 impressões",
+"rendimento":"1000 impressões",
+"tipo":"White - W",
+"marca":"HID FARGO",
+"subt2":"Para Fargo DTC1250e",
+"impComp":["dtc1250e_dual", "dtc1250e_single"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis:DTC1000 e DTC1250e (single e dual)",
@@ -167,7 +233,13 @@
           ""
         ]
 },
-{"id":12,"title":"Ribbon #072213 - YMCK","genre":"ribbons", "pseudo":"072213", "subt":"750 faces coloridas",
+{"id":12,"title":"Ribbon #072213 - YMCK","genre":"ribbons", "pseudo":"072213", "subt":"Até 750 impressões",
+"rendimento":"750 impressões",
+"tipo":"Filme Retransfer",
+"marca":"HID FARGO",
+"subt2":"Para HDP5000 (Guardian)",
+"impComp":["hdp5000"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: HDP5000 (MODELO GUARDIAN)",
@@ -182,7 +254,13 @@
           ""
         ]
 },
-{"id":13,"title":"Ribbon #045610 - YMCKO ","genre":"ribbons", "pseudo":"045610", "subt":"500 faces coloridas",
+{"id":13,"title":"Ribbon #045610 - YMCKO ","genre":"ribbons", "pseudo":"045610", "subt":"Até 500 impressões",
+"rendimento":"500 impressões",
+"tipo":"Color - YMCKO",
+"marca":"HID FARGO",
+"subt2":"Para FARGO DTC1500",
+"impComp":["dtc1500"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: DTC1500 (single e dual)",
@@ -196,7 +274,13 @@
           ""
         ]
 },
-{"id":14,"title":"Pelicula Polyguard #082601 ","genre":"ribbons", "pseudo":"082601", "subt":"250 faces ",
+{"id":14,"title":"Pelicula Polyguard #082601 ","genre":"ribbons", "pseudo":"082601", "subt":"Até 250 impressões ",
+"rendimento":"250 impressões",
+"tipo":"Polyguard Overlaminate",
+"marca":"HID FARGO",
+"subt2":"Para DTC1500 / HDP5000",
+"impComp":["dtc1500", "hdp5000"],
+"ribbonComp":"null",
 "descriptions":
         [
                 [
@@ -212,7 +296,13 @@
           ""
         ]
 },
-{"id":15,"title":"Filme Retransfer #084900","genre":"ribbons", "pseudo":"084900", "subt":"1500 faces ",
+{"id":15,"title":"Filme Retransfer #084900","genre":"ribbons", "pseudo":"084900", "subt":"Até 1500 impressões",
+"rendimento":"1500 impressões",
+"tipo":"Filme Retransfer",
+"marca":"HID FARGO",
+"subt2":"Para HDP6600",
+"impComp":["hdp6600"],
+"ribbonComp":"null",
 "descriptions":
 [
         "Impressoras compatíveis: HDP6600",
@@ -226,6 +316,12 @@
         ]
 },
 {"id":16,"title":"Ribbon #084911 - YMCK ","genre":"ribbons", "pseudo":"084911", "subt":"750 faces coloridas",
+"rendimento":"750 impressões",
+"tipo":"Color - YMCK",
+"marca":"HID FARGO",
+"subt2":"Para HDP6600",
+"impComp":["hdp6600"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Fabricante: HID FARGO",
@@ -239,7 +335,13 @@
           ""
         ]
 },
-{"id":17,"title":"Ribbon #84051 - YMCK","genre":"ribbons", "pseudo":"084051", "subt":"500 faces coloridas",
+{"id":17,"title":"Ribbon #84051 - YMCK","genre":"ribbons", "pseudo":"084051", "subt":"Até 500 impressões",
+"rendimento":"500 impressões",
+"tipo":"Color - YMCK",
+"marca":"HID FARGO",
+"subt2":"Para HDP5000",
+"impComp":["hdp5000"],
+"ribbonComp":"null",
 "descriptions":
 [
         "Impressoras compatíveis: HDP5000",
@@ -253,7 +355,13 @@
           ""
         ]
 },
-{"id":18,"title":"Cartucho de Tinta - YMC","genre":"ribbons", "pseudo":"cartucho", "subt":"1300 faces coloridas",
+{"id":18,"title":"Cartucho de Tinta - YMC","genre":"ribbons", "pseudo":"cartucho", "subt":"Até 1300 impressões",
+"rendimento":"1300 impressões",
+"tipo":"Color - YMC",
+"marca":"HID FARGO",
+"subt2":"Para Fargo INK1000",
+"impComp":["ink1000"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: HID FARGO INK1000",
@@ -267,7 +375,13 @@
           ""
         ]
 },
-{"id":19,"title":"Ribbon #045000 - YMCKO","genre":"ribbons", "pseudo":"045000", "subt":"250 faces coloridas",
+{"id":19,"title":"Ribbon #045000 - YMCKO","genre":"ribbons", "pseudo":"045000", "subt":"Até 250 impressões",
+"rendimento":"250 impressões",
+"tipo":"Color - YMCKO",
+"marca":"HID FARGO",
+"subt2":"Para DTC1250e",
+"impComp":["dtc1250e_dual", "dtc1250e_single"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: DTC1000 e DTC1250e (single e dual)",
@@ -281,7 +395,13 @@
           ""
         ]
 },
-{"id":20,"title":"Filme Retransfer #084053 ","genre":"ribbons", "pseudo":"084053", "subt":"750 faces ",
+{"id":20,"title":"Filme Retransfer #084053 ","genre":"ribbons", "pseudo":"084053", "subt":"Até 750 impressões",
+"rendimento":"750 impressões",
+"tipo":"Filme Retransfer",
+"marca":"HID FARGO",
+"subt2":"Para HDP5000",
+"impComp":["hdp5000"],
+"ribbonComp":"null",
 "descriptions":
         [
                 "Impressoras compatíveis: HDP5000",

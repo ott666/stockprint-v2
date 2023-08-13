@@ -7,15 +7,16 @@ import ProdutosSection from '@/components/Sections/ProdutosSection/ProdutosSecti
 import SobreSection2 from '@/components/Sections/SobreSection2/SobreSection2'
 import BundleInk from '@/components/Sections/BundleInk/BundleInk'
 import ServicosSection from '@/components/Sections/ServicosSection/ServicosSection'
+import TransitionEffect from '@/components/LayoutComponents/TransitionEffect/TransitionEffect'
 
 export default function Home() {
   
   return (
     <main>
+      <TransitionEffect/>
       <HeroSection/>
       <MarcasSection/>
       <SobreSection2/>
-      <BundleInk/>
       <ProdutosSection/>
       <ServicosSection/>
       

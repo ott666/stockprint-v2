@@ -1,25 +1,75 @@
 import React from "react";
 import Image from "next/image";
 
-
-interface CardProductProps{
-    urlproduct:any
-    altproduct:string
+interface CardbundleProps{
     title:string
-    subt:string
+    urlproduct:string
+    subtitle:string
+    subtitle2:string
+    bgColor:string
+    altproduct:string
 }
 
-export function CardProduct(props: CardProductProps){
-    return (
-        <div className={` group flex justify-center items-center min-w-[300px] h-[258px] relative` }>
+export default function CardProduct(props:CardbundleProps){
+    return(
+        <div className={`
+        w-[325px] mm:w-[375px] lg:w-full
+        h-[294px] mm:h-[347.5px]  xl:h-[266px]
+        relative
+        group
+        rounded-3xl
+        overflow-hidden
+        
+        `}>
+            <div className={`
+            bg-sky-950/70
+            h-full
+            w-full
+            absolute
+            -z-[-2]
+            translate-x-[-120%] group-hover:translate-x-0
+            ease-in-out
+            duration-700
+            text-center
+            flex items-center justify-center
             
-            
-            <Image className="rounded-3xl" src={props.urlproduct} width={350} height={200} alt={props.altproduct} />
-
-            <div className="text-start font-sans text-white opacity-0 absolute flex flex-col bottom-0 left-0 right-0 bg-secondaryBlue group-hover:opacity-100 h-[100px] z-4 ease-in-out duration-300 p-[15px] rounded-full">
-                <h4 className="pb-[5px] pl-5 text-xl font-bold">{props.title}</h4>
-                <p className=" pl-5">{props.subt}</p>
+            `} >
+                <h3 className={`
+                text-3xl
+                font-bold
+                text-slate-300
+                -tracking-wider
+                `}>{props.title}</h3>
+                 <div className={`
+                absolute
+                inset-x-0 bottom-0 h-20
+                -z-[0]
+                bg-blue-500/90
+                rounded-t-2xl
+                flex flex-col justify-center items-center
+                gap-y-0`
+                }>
+                <h4 className={`
+                text-2xl
+                font-semibold
+                -tracking-widest
+                text-slate-300
+                `}>{props.subtitle}</h4>
+                <h4 className={`
+                text-2xl
+                font-semibold
+                -tracking-widest
+                text-slate-300
+                `}>{props.subtitle2}</h4>
+                </div>
             </div>
+           
+            <Image 
+                style={{zIndex:1,
+                    backgroundColor:props.bgColor}}
+                src={props.urlproduct} fill={true} alt="img"/>
+
         </div>
+        
     )
 }
