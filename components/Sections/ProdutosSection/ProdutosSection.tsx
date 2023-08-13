@@ -16,7 +16,7 @@ export default function ProdutosSection(props:any){
         pb-2 xl:pb-5
         `}>Nossos produtos</h1>
         <Container>
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col justify-center w-full relative items-center ">
           <div className="flex justify-center relative w-full px-9 pb-7">
               <GenerosProdutos
                 selectedGenre={selectedGenre}

@@ -7,6 +7,8 @@ import React from "react";
 
 export default function Page(){
     return(
+        <>
+        <TransitionEffect />
         <div className=" flex flex-col items-center">
             <Breadcrumb2 props='Contato'/>
             <TransitionEffect />
@@ -14,6 +16,8 @@ export default function Page(){
             <ContatoSection/>
             
         </div>
+        
+        </>
         
     )
 }

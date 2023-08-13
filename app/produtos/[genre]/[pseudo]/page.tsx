@@ -4,7 +4,7 @@ import React from "react"
 import Breadcrumb from "@/components/Breadcrumb/Breadcrumb"
 import Produtos from '@/data/products.json'
 import Container  from "@/components/Container/Container"
-import TransitionEffect2 from "@/components/LayoutComponents/TransitionEffect/TransitionEffect";
+import TransitionEffect from "@/components/LayoutComponents/TransitionEffect/TransitionEffect";
 import CarrosselProdutos from "@/components/Produtos/CarrosselProdutos/CarrosselProdutos"
 
 export default function Page({params}:any){
@@ -12,7 +12,7 @@ export default function Page({params}:any){
   console.log('produto' , produto)
   return (
     <>
-    <TransitionEffect2 />
+    <TransitionEffect />
     
     <Breadcrumb produto={produto}/>
     <Container>

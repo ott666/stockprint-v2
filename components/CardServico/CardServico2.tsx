@@ -1,15 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
+import { link } from 'fs'
+import Link from 'next/link'
 
 interface CardServicoProps{
     title:string
     text:string
     icon:string
+    url:string
 }
 
 const CardServico = (props: CardServicoProps) => {
   return (
-    <div className={`
+    
+    <Link href={props.url} className={`
     md:gap-5 lg:gap-3
     w-full lg:w-[49%]
     lg:h-[300px]
@@ -23,7 +27,7 @@ const CardServico = (props: CardServicoProps) => {
     bg-blue-900 
     flex align-start lg:items-center 
     font-sans
-    `}>
+    `}> 
        <Image className='ml-[25px] absolute invisible md:visible md:static' 
     src={props.icon}
     alt='icon'
@@ -39,7 +43,8 @@ const CardServico = (props: CardServicoProps) => {
             font-bolder
             lg:p-0`}>{props.text}</p>
         </div>
-    </div>
+
+    </Link>
   )
 }
 

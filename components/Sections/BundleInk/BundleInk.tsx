@@ -125,7 +125,6 @@ export default function GenerosSection(){
             </div>
             <div className={`
                 flex flex-wrap 
-                md:mx-[-30px] lg:mx-0
                 xl:w-[620px]
                 xl:self-end
                 xl:translate-x-5

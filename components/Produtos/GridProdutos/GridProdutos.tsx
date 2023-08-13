@@ -1,6 +1,6 @@
 // import ListaProdutos
 import produtosData from "@/data/products.json";
-import { CardProduct } from "@/components/Produtos/CardProduct/CardProduct";
+import CardProduct  from "@/components/Produtos/CardProduct/CardProduct";
 import Link from "next/link";
 
 type Props = {
@@ -15,21 +15,24 @@ const ListaProdutos = ({ selectedGenre }: Props) => {
     : produtosData;
   return (
     <div className={`
+    w-full relative
     p-2 
-    flex flex-wrap justify-center   
-    gap-y-0 mm:gap-y-7 xl:gap-y-6
-    gap-x-10 
+    flex flex-wrap justify-center xl:justify-between  
+    gap-y-0 mm:gap-y-7 xl:gap-y-4
+    gap-x-10 lg:gap-x-0
     `}>
       {/* map through all the filtered ListaProdutos */}
       {filteredMoviesByGenre.map((product) => {
        
         return (
-          <Link href={`/produtos/${product.genre}/${product.pseudo}`} key={product.pseudo}> 
+          <Link className={` md:w-[50%] xl:w-[32%]`} href={`/produtos/${product.genre}/${product.pseudo}`} key={product.pseudo}> 
             <CardProduct 
             urlproduct={`/${product.pseudo}/${product.pseudo}1.png`} 
             altproduct={product.title}
             title={product.title}
-            subt={product.subt}
+            subtitle={product.subt}
+            subtitle2={product.subt2}
+            bgColor="#ffffff"
             / >
           </Link>
         );
